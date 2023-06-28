@@ -1,0 +1,28 @@
+body {
+font-family: sans-serif;
+@apply bg-black text-white;
+}
+header {
+@apply bg-black text-white py-20;
+}
+h1 {
+@apply mb-0;
+}
+main {
+@apply mt-20;
+}
+form {
+@apply w-400 mx-auto;
+}
+input {
+@apply w-full p-10 mb-10 border-gray-300;
+}
+input[type="submit"] {
+@apply bg-black text-white p-10 border-0 cursor-pointer;
+}
+a {
+@apply text-black;
+}
+a:hover {
+@apply text-underline;
+}
